@@ -1,0 +1,19 @@
+fastapi==0.115.12 
+# unicorn lauches the fastapi server 
+uvicorn[standard]==0.34.2
+#with out the hardcoding we create a templet and show to the user dynamically 
+jinja2==3.1.6
+pydantic-settings==2.8.1
+#it store the pdfs to the amazon s3 bukect for the fuerther process 
+boto3==1.37.38
+#hekps to contact eith sql server
+psycopg[binary,pool]==3.2.6
+#extarct the conett from pdf -
+pypdf==5.4.0
+python-docx==1.1.2
+httpx==0.28.1
+langgraph>=0.2,<2
+pinecone>=5,<9
+python-dotenv==1.0.1
+#  observability 
+glassflow-rius>=1.0,<2.0
